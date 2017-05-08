@@ -57,11 +57,48 @@ namespace STAG_Rozvrh
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050005
+			public const int Prihlasit = 2131034117;
+			
+			// aapt resource value: 0x7f050003
+			public const int editTextLogin = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int editTextPassword = 2131034116;
+			
+			// aapt resource value: 0x7f050002
+			public const int linearLayout2 = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int textViewLogin = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int textViewPassword = 2131034113;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int ShowRozvrh = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Terminy = 2130903042;
 			
 			static Layout()
 			{

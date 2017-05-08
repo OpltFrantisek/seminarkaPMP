@@ -10,9 +10,17 @@ namespace STAG_Rozvrh
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
             // Set our view from the "main" layout resource
-            // SetContentView (Resource.Layout.Main);
+            SetContentView (Resource.Layout.Main);
+
+            var tlacitkoPotvrdit = FindViewById<Button>(Resource.Id.Prihlasit);
+            var login = FindViewById<EditText>(Resource.Id.editTextLogin);
+            var pass = FindViewById<EditText>(Resource.Id.editTextPassword);
+
+            tlacitkoPotvrdit.Click += (sender, e) =>
+            {
+                STAG.Stag.Download(login.Text, pass.Text);
+            };
         }
     }
 }
