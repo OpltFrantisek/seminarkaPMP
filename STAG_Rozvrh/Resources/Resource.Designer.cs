@@ -60,23 +60,35 @@ namespace STAG_Rozvrh
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050005
-			public const int Prihlasit = 2131034117;
+			// aapt resource value: 0x7f060006
+			public const int Prihlasit = 2131099654;
 			
-			// aapt resource value: 0x7f050003
-			public const int editTextLogin = 2131034115;
+			// aapt resource value: 0x7f060004
+			public const int editTextLogin = 2131099652;
 			
-			// aapt resource value: 0x7f050004
-			public const int editTextPassword = 2131034116;
+			// aapt resource value: 0x7f060005
+			public const int editTextPassword = 2131099653;
 			
-			// aapt resource value: 0x7f050002
-			public const int linearLayout2 = 2131034114;
+			// aapt resource value: 0x7f060007
+			public const int item1 = 2131099655;
 			
-			// aapt resource value: 0x7f050000
-			public const int textViewLogin = 2131034112;
+			// aapt resource value: 0x7f060008
+			public const int item2 = 2131099656;
 			
-			// aapt resource value: 0x7f050001
-			public const int textViewPassword = 2131034113;
+			// aapt resource value: 0x7f060009
+			public const int item3 = 2131099657;
+			
+			// aapt resource value: 0x7f060003
+			public const int linearLayout2 = 2131099651;
+			
+			// aapt resource value: 0x7f060000
+			public const int popupButton = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int textViewLogin = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int textViewPassword = 2131099650;
 			
 			static Id()
 			{
@@ -110,14 +122,33 @@ namespace STAG_Rozvrh
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int menu = 2131034112;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040002
+			public const int ApplicationName = 2130968578;
+			
 			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			public const int Hello = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int showPopup = 2130968576;
 			
 			static String()
 			{
