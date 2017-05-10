@@ -22,7 +22,8 @@ namespace STAG_Rozvrh
 
             tlacitkoPotvrdit.Click += (sender, e) =>
             {
-               rozvrh = STAG.Stag.Download(login.Text, pass.Text);
+                rozvrh = STAG.Stag.Stahni(login.Text, pass.Text, "F15183");
+              // rozvrh = STAG.Stag.Download(login.Text, pass.Text);
             };
 
             Button showPopupMenu = FindViewById<Button>(Resource.Id.popupButton);
@@ -44,6 +45,7 @@ namespace STAG_Rozvrh
                     var data = new Bundle();
                     int i = AddObject(rozvrh);
                     intent.PutExtra("i",i);
+                    intent.PutExtra("Sem", "LS");
                     StartActivity(intent);
                     ; break;
                 case Resource.Id.item2:

@@ -43,7 +43,8 @@
             <EditText
                 android:layout_width="276.0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/editTextLogin" />
+                android:id="@+id/editTextLogin"
+                android:layout_marginTop="46.0dp" />
             <EditText
                 android:inputType="textPassword"
                 android:layout_width="259.0dp"

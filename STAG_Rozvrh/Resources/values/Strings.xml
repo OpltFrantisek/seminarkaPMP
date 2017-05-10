@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="showPopup">Show popup menu</string>
+    <string name="showPopup">Menu</string>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">STAG_Rozvrh</string>
 </resources>
